@@ -7,3 +7,10 @@
     width: max-content;
     color: white;
   }
+
+  @media (max-width: 820px) {
+    
+    .container{
+      padding: 10px;
+    }
+  }

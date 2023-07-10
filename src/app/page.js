@@ -8,13 +8,13 @@ export default function Home() {
     <div className={styles.container}>
 
       <div className={styles.item}>
-
+      <div>
         <h1 className={styles.title}>Better Design for your digital products.</h1>
 
         <p className={styles.desc}>Turning your Idea into Reality. We bring together the teams from the global tech industry.</p>
 
         <Button url="/portfolio" text="See Our Work"></Button>
-
+        </div>
       </div>
 
       <div className={styles.item}>

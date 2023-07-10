@@ -1,11 +1,11 @@
 .container{
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 100px;
 }
 
 .item{
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -23,10 +23,35 @@
   font-weight: 300;
 }
 
-
-
 .img{
   width: 100%;
   height: 700px;
   object-fit: container;
+}
+
+@media (max-width: 820px) {
+  .item{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .img{
+    width: 100%;
+    height: 300px;
+    object-fit: container;
+  }
+  .title{
+    font-size: 42px;
+    background: linear-gradient(to bottom, #194c33, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ;
+  }
+  
+  .desc{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 20px 0px
+  }
+  
 }
