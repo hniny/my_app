@@ -40,3 +40,18 @@
   .desc{
     font-size: 20px;
   }
+
+  @media (max-width: 820px){
+    .item{
+      display: block;
+      justify-content: left;
+    }
+    .imgContainer{
+      margin-top:20px;
+      height: 300px;
+      
+    }
+    .title{
+      font-size: 40px;
+    }
+  }

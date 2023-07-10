@@ -42,3 +42,19 @@
       transform: rotate(360deg);
     }
   }
+
+  @media (max-width: 820px) {
+    .container {
+      display: block;
+      justify-content: left;
+      gap: 30px;
+    }
+    .title{
+      font-size: 18px;
+    }
+    
+    .desc{
+      font-size: 14px;
+      color: #999;
+    }
+  }

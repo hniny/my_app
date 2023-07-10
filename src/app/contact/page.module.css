@@ -51,3 +51,19 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+@media (max-width: 820px) {
+  .content {
+    display: block;
+    justify-content: left;
+    gap: 50px;
+  }
+  .title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .imgContainer {
+    height: 300px;
+  }
+}

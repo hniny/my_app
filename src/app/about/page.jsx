@@ -64,7 +64,7 @@ const About = async () => {
               <Image
                 src={data.message}
                 alt=""
-                width={500}
+                width={300}
                 height={350}
                 className={styles.image}
               />
